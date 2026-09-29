@@ -1,0 +1,5 @@
+Untuk mengaktifkan Firebase setelah google-services.json tersedia:
+- tambahkan plugin Google Services pada root build.gradle.kts
+- tambahkan `com.google.gms.google-services` pada app/build.gradle.kts
+- tambahkan Firebase BOM + firebase-auth + firebase-firestore dependencies
+- lakukan Gradle Sync
